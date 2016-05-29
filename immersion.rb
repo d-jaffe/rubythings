@@ -66,3 +66,6 @@ if percentageValidation == 1
 else
 	puts "The percentage of colors is not 100%"
 end
+
+puts "Press enter to exit."
+gets.chomp

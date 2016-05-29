@@ -1,6 +1,4 @@
 #!/usr/local/bin/ruby
-require 'colorize'
-require 'ordinalize'
 
 prompt = '> '
 ColorData = Struct.new(:colorName, :percentOfColor, :percentDepthOfShade, :percentDyeStock, :dyeVolume, :carryingCapacity, :waterNeeded)
@@ -27,7 +25,7 @@ colorDataArray = Array.new
 percentageValidation = 0
 i = 0
 while i < numColors
-	puts "What is the #{(Integer(i+1)).ordinalize} color?"
+	puts "What is yarn # #{i+1}'s color?"
 	print prompt
 	colorName = $stdin.gets.chomp
 	

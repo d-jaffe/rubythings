@@ -1,0 +1,16 @@
+GEM
+  specs:
+    colorize (0.7.7)
+    humanize (1.1.2)
+    ordinalize (0.0.3)
+      humanize
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  colorize
+  ordinalize
+
+BUNDLED WITH
+   1.12.5

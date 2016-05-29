@@ -1,2 +1,1 @@
-gem 'colorize'
 gem 'ordinalize'
